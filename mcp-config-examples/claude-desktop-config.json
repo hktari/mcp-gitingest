@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gitingest": {
+      "command": "node",
+      "args": ["/path/to/mcp-gitingest/src/gitingest-mcp/index.js"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

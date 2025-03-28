@@ -1,0 +1,30 @@
+{
+  "name": "mcp-gitingest",
+  "version": "1.0.0",
+  "description": "MCP server for GitHub repository ingestion",
+  "main": "src/gitingest-mcp/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-gitingest": "src/gitingest-mcp/index.js"
+  },
+  "scripts": {
+    "start": "node src/gitingest-mcp/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "repository",
+    "ingest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4",
+    "octokit": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
