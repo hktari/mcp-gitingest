@@ -60,7 +60,7 @@ Add the following to the `mcpServers` object:
   "mcpServers": {
     "gitingest": {
       "command": "node",
-      "args": ["/path/to/mcp-gitingest/src/gitingest-mcp/index.js"],
+      "args": ["/path/to/mcp-gitingest/src/index.js"],
       "disabled": false,
       "autoApprove": []
     }
@@ -83,7 +83,7 @@ Add the following to the `mcpServers` object:
   "mcpServers": {
     "gitingest": {
       "command": "node",
-      "args": ["/path/to/mcp-gitingest/src/gitingest-mcp/index.js"],
+      "args": ["/path/to/mcp-gitingest/src/index.js"],
       "disabled": false,
       "autoApprove": []
     }
@@ -143,7 +143,7 @@ Show me the package.json and README.md files from facebook/react
 If you encounter issues, you can run the server in debug mode:
 
 ```bash
-node --inspect src/gitingest-mcp/index.js
+node --inspect src/index.js
 ```
 
 ## License

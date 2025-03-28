@@ -2,13 +2,13 @@
   "name": "mcp-gitingest",
   "version": "1.0.0",
   "description": "MCP server for GitHub repository ingestion",
-  "main": "src/gitingest-mcp/index.js",
+  "main": "src/index.js",
   "type": "module",
   "bin": {
-    "mcp-gitingest": "src/gitingest-mcp/index.js"
+    "mcp-gitingest": "src/index.js"
   },
   "scripts": {
-    "start": "node src/gitingest-mcp/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

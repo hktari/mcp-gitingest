@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Make the server executable
-RUN chmod +x src/gitingest-mcp/index.js
+RUN chmod +x src/index.js
 
 # Set the entrypoint
-ENTRYPOINT ["node", "src/gitingest-mcp/index.js"]
+ENTRYPOINT ["node", "src/index.js"]
